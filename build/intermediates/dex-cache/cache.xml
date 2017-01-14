@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/exploded-aar/Video Vocabulary/youkuPlayerOpenSDK/unspecified/jars/libs/YoukuAnalytics.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="042e0b06aa76002efa7158bd92a01e8a0a25fcc8">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/YoukuAnalytics-8774c6b5d86f07cd989ae92c2e85a3cc946cae76.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/exploded-aar/Video Vocabulary/youkuPlayerOpenSDK/unspecified/jars/libs/baseproject.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e4d675cdbc212865470e02b16a7f2687358f4b34">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/baseproject-afbc16c3824b9df7802e509da49dcc4f0d42ea43.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.36/63a6becf28f9a3facdc54a350c93fb1b85893ac5/fastjson-1.1.36.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63a6becf28f9a3facdc54a350c93fb1b85893ac5">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/fastjson-1.1.36-597dac52a1f4548ccc35dcf0d07d41adcb17c3c5.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/exploded-aar/Video Vocabulary/youkuPlayerOpenSDK/unspecified/jars/libs/playerBase.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="15aca373cd2b327dea71b821a6cb803de8de2629">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/playerBase-035f3e3814f2b6dd97c9d2005242db8be35c8a51.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-d5508cc48f167f1061c0db10c683dda198a69a26.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/exploded-aar/Video Vocabulary/youkuPlayerOpenSDK/unspecified/jars/libs/mAppTracker.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bc4b32c6b035e96850fe133c5a48f386da9333">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/mAppTracker-c3ab1e0d960f612cec2a88dbb27616a337985934.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/exploded-aar/Video Vocabulary/youkuPlayerOpenSDK/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="752e222166949808d462b6c49014487f7a523860">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/classes-67ea1f08f802dda2bd20063a7908c02f012d38ed.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/exploded-aar/Video Vocabulary/youkuPlayerOpenSDK/unspecified/jars/libs/tracking.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="21b4501ec2497d313fbf7be2ca32aac9f717d5f8">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/tracking-d82cb1f3bae34afecc1289925cb005576ecbb2dd.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-82a51cba7cf964552b7374e9eeccce1f0c4157d4.jar" />
+    </item>
+    <item
+        jar="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/Apple/AndroidStudioProjects/Video Vocabulary/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi-d5508cc48f167f1061c0db10c683dda198a69a26.jar" />
+    </item>
+
+</items>
