@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright 2012 Google Inc. All Rights Reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="youtube_api_demo">Video Vocabulary</string>
+
+    <string name="videowall_demo_name">Video Wall</string>
+    <string name="videolist_demo_name">Video List</string>
+    <string name="standalone_player_demo_name">Standalone Player</string>
+    <string name="playerview_demo_name">Simple PlayerView</string>
+    <string name="fragment_demo_name">Simple PlayerFragment</string>
+    <string name="player_controls_demo_name">Custom Player Controls</string>
+    <string name="action_bar_demo_name">Overlay ActionBar Demo</string>
+    <string name="fullscreen_demo_name">Custom Fullscreen Handling</string>
+    <string name="intents_demo_name">YouTube App Launcher Intents</string>
+
+    <string name="playerview_text">This is a YouTubePlayerView!</string>
+    <string name="playerfragment_text">This is a YouTubePlayerFragment!</string>
+
+    <string name="demo_select">Please select a demo:</string>
+    <string name="some_demos_disabled">* Your device is currently running Android API version <xliff:g id="current_version">%1$s</xliff:g>.</string>
+    <string name="list_item_disabled">Requires Android API version <xliff:g id="required_version">%1$s</xliff:g> or higher.</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="skip_to">Skip To</string>
+    <string name="seconds">secs</string>
+    <string name="player_style">Player Style</string>
+    <string name="def">Default</string>
+    <string name="minimal">Minimal</string>
+    <string name="chromeless">Chromeless</string>
+
+    <string name="play_video">Play video</string>
+    <string name="play_playlist">Play playlist</string>
+    <string name="play_video_list">Play video list</string>
+    <string name="start_index">Start index</string>
+    <string name="start_time">Start time (sec)</string>
+    <string name="autoplay">Autoplay</string>
+    <string name="lightbox_mode">Lightbox mode</string>
+
+    <string name="intent_select">Please select an action:</string>
+    <string name="intent_disabled">This intent is not supported with the currently installed version of YouTube.</string>
+    <string name="youtube_currently_installed">YouTube version installed on this device: <xliff:g id="youtube_version">%1$s</xliff:g>.</string>
+    <string name="youtube_not_installed">YouTube is not installed on this device.</string>
+
+    <string name="fullscreen_tutorial">This is a demo which shows how to handle fullscreen behaviour. This activity has differents layouts for portrait, landscape and fullscreen. The user can enter fullscreen either by using the player controller or programmatically by the programmer (here using a button). If your activity does not have a landscape layout, you can choose to automatically enter fullscreen when the device is rotated to landscape orientation.</string>
+    <string name="enter_fullscreen">Enter Fullscreen</string>
+    <string name="landscape_fullscreen">Always fullscreen in landscape</string>
+
+    <string name="actionbar_tutorial">This is a demo which shows how to use the ActionBar as an overlay when the video is playing in fullscreen. The actionbar will automatically fade away along with the player controls when the video is being played in fullscreen. While not in fullscreen the Actionbar is visible and does not overlay any of the views.</string>
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menu_select_wordlist">Select Wordlist</string>
+    <string name="menu_add_shortcut">Homescreen Shortcut</string>
+    <string name="menu_export_database">Export Database</string>
+    <string name="menu_import_database">Import Database</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_convert_and_share">Convert and Share</string>
+    <string name="menu_record_video">Record Video</string>
+    <string name="menu_statistics">Show statistics</string>
+    <string name="menu_schedule">Show schedule</string>
+    <string name="menu_pleco">Translate in Pleco</string>
+    <string name="menu_goldendict">Translate in GoldenDict</string>
+    <string name="menu_edit">Edit sentence</string>
+    <string name="btn_select">Select</string>
+    <string name="btn_next_word">Rate your answer</string>
+    <string name="NoMoreCards">No More Cards for Today :-)</string>
+    <string name="NoMoreCards2">If you want to learn more new words today, you can select another wordlist…</string>
+    <string name="blue_text">Select a word from the list :</string>
+    <string name="btnResponse0">Have no idea</string>
+    <string name="btnResponse1">Incorrect answer</string>
+    <string name="btnResponse2">Barely correct answer</string>
+    <string name="btnResponse3">Correct with much effort</string>
+    <string name="btnResponse4">Correct with some effort</string>
+    <string name="btnResponse5">Perfect answer</string>
+    <string name="button_record">Record</string>
+    <string name="button_show_answer">SHOW ANSWER</string>
+    <string name="button_share">SHARE</string>
+    <string name="button_again">AGAIN</string>
+    <string name="playing_the_video_in_upload_progress">Playing the video in upload progress</string>
+    <string name="dlgTitleShare">Share</string>
+    <string name="title_activity_review">Share recorded video</string>
+    <string name="title_activity_study">Which word is missing?</string>
+    <string name="title_activity_study2">Rate your answer</string>
+
+    <string name="review_words">Review Words</string>
+    <string name="title_activity_practice_words">Practice Listening</string>
+
+    <!--  translators: please do not change the name="..." attributes! -->
+
+    <string name="grade0">0</string>
+    <string name="grade1">1</string>
+    <string name="grade2">2</string>
+    <string name="grade3">3</string>
+    <string name="grade4">4</string>
+    <string name="grade5">5</string>
+    <string name="show">Show answer</string>
+    <string name="ok">Ok</string>
+
+    <string name="skip_card">Skip card</string>
+    <string name="schedule">Schedule</string>
+    <string name="settings">Settings</string>
+    <string name="card_statistics">Card Statistics</string>
+    <string name="categories">Categories</string>
+    <string name="activate_categories">Activate categories</string>
+
+    <string name="select_card_dir">Select a card directory</string>
+
+    <string name="not_enough_memory_to_load">Not enough memory to load cards.</string>
+    <string name="fatal_error">Fatal Error</string>
+    <string name="no_card_loaded_text">Unexpected error: card not loaded.</string>
+    <string name="update_overdue_text">An export from Mnemogogo is overdue!</string>
+    <string name="update_today_text">An export from Mnemogogo is due today.</string>
+    <string name="no_card_dirs">No card directories could be found. Please export from Mnemogogo!</string>
+    <string name="corrupt_card_dir">The exported cards are corrupt.</string>
+
+    <string name="no_cards_title">No cards</string>
+    <string name="no_new_cards_title">No new cards</string>
+    <string name="no_cards_left">There are no new cards to review at this time.</string>
+    <string name="learn_ahead">Learn ahead of schedule</string>
+    <string name="replay_sounds">Replay sounds</string>
+
+    <string name="in_text">In</string>
+    <string name="day_text">day</string>
+    <string name="days_text">days</string>
+
+    <string name="statistics">Statistics</string>
+    <string name="easiness">Easiness:</string>
+    <string name="repetitions">Repetitions:</string>
+    <string name="lapses">Lapses:</string>
+    <string name="grade">Grade:</string>
+    <string name="days_since_last_repetition">Days since last repetition:</string>
+    <string name="days_until_next_repetition">Days until next repetition:</string>
+
+    <string name="info">Info</string>
+    <string name="about_author_label">Author:</string>
+    <string name="about_author">Timothy Bourke</string>
+    <string name="about_mnemosyne_label">Mnemosyne:</string>
+    <string name="about_mnemosyne">Peter Bienstman</string>
+    <string name="about_sm2_label">SM-2 Algorithm:</string>
+    <string name="about_sm2">Piotr Wozniak</string>
+    <string name="about_translations">Translation:</string>
+
+    <string name="no_cards_main">A valid card directory has not yet been selected.</string>
+
+    <string name="not_available">This feature is not available.</string>
+
+    <string name="setting_cat_operation">Operation</string>
+    <string name="setting_cat_appearance">Appearance</string>
+    <string name="setting_cat_misc">Miscellaneous</string>
+
+    <string name="setting_card_dir">Card directory</string>
+    <string name="setting_card_dir_summary">The location of the files exported from Mnemogogo.</string>
+    <string name="cannot_find_card_dirs">(None were found on this device!)</string>
+    <string name="setting_cards_to_load">Loading cards</string>
+    <string name="setting_cards_to_load_summary">Balance memory and speed when loading card contents.</string>
+    <string name="select_trade_off">Select compromise</string>
+
+    <string name="setting_center">Center card text</string>
+    <string name="setting_center_summary">Center question and answer texts.</string>
+    <string name="setting_touch_buttons">Onscreen buttons</string>
+    <string name="setting_touch_buttons_summary">Display buttons for showing answers and grading.</string>
+    <string name="setting_font_size">Card text size</string>
+    <string name="setting_font_size_summary">Set the size of text in cards.</string>
+    <string name="select_font_size">Select card text size</string>
+
+    <string name="setting_fullscreen_mode">Fullscreen mode</string>
+<string name="setting_fullscreen_mode_summary">The status bar is hidden in fullscreen mode
+(requires restart).</string>
+    <string name="setting_show_titlebar">Show titlebar</string>
+<string name="setting_show_titlebar_summary">The title bar displays the category and
+the number of cards to review.</string>
+
+    <string name="loading_card_dir">Loading statistics...</string>
+    <string name="loading_cards">Loading card contents...</string>
+    <string name="searching_for_card_dirs">Searching for card directories...</string>
+
+    <string-array name="entries_cards_to_load">
+        <item>More loading, less memory</item>
+        <item>Balance loading and memory</item>
+        <item>Less loading, more memory</item>
+    </string-array>
+
+    <string-array name="entries_font_size">
+        <item>Very small</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Very large</item>
+    </string-array>
+
+    <string name="eula_title">License</string>
+    <string name="eula_accept">Accept</string>
+    <string name="eula_refuse">Refuse</string>
+
+    <string name="setting_two_grading_rows">Bigger buttons</string>
+    <string name="setting_two_grading_rows_summary">Show two rows of grading buttons in narrow screen mode.</string>
+
+    <string name="setting_auto_play">Play sounds automatically</string>
+    <string name="setting_auto_play_summary">Play any sounds as soon as a card is shown.</string>
+
+    <string name="setting_button_pos">Button position</string>
+    <string name="setting_button_pos_summary">Location of the buttons in wide screen mode.</string>
+    <string name="select_button_pos">Place the buttons</string>
+    <string-array name="entries_button_pos">
+        <item>At bottom</item>
+        <item>At left</item>
+        <item>At right</item>
+    </string-array>
+
+<string name="no_cards_step1">At a PC: Export cards from
+Mnemosyne to your SD card using the Mnemogogo plugin.</string>
+<string name="no_cards_step2">On this phone: choose the exported directory from the
+Mnemododo Settings screen (press the Menu button, and then choose Settings).</string>
+
+    <string name="setting_keys">Key assignment</string>
+    <string name="setting_keys_summary">Assign keys for showing answers and grading.</string>
+    <string name="select_keys">Press the key to:</string>
+    <string name="key_show">Show the answer</string>
+    <string name="key_grade0">Grade a card 0</string>
+    <string name="key_grade1">Grade a card 1</string>
+    <string name="key_grade2">Grade a card 2</string>
+    <string name="key_grade3">Grade a card 3</string>
+    <string name="key_grade4">Grade a card 4</string>
+    <string name="key_grade5">Grade a card 5</string>
+    <string name="key_replay_sounds">Replay sounds</string>
+
+    <!-- maximum 325 characters -->
+<string name="market_description">
+Mnemododo allows spaced-repetition flash cards from Mnemosyne to be reviewed on a mobile phone.
+
+Both Mnemosyne and the Mnemogogo plugin must be installed on your PC. Cards cannot be edited on your phone.
+
+There is support for HTML markup (including LaTeX), graphics (including maps), and sound.
+</string>
+
+    <!-- maximum 80 characters -->
+<string name="market_promo">
+Use with Mnemosyne on your PC or Mac for spaced-repetition learning on the go!
+</string>
+
+    <string name="setting_restrict_search">Restrict directory search</string>
+    <string name="setting_restrict_search_summary">Only look for card directories under a specific path.</string>
+    <string name="setting_restrict_search_title">Enter a path to search for card directories:</string>
+    <string name="setting_restrict_search_message">(Leave blank to search the whole phone.)</string>
+
+    <!-- new: needed for NL, FR, HR, ZH(simp.), ZH(trad.) -->
+
+    <string name="grade0_short_help">Forgotten completely.</string>
+    <string name="grade1_short_help">Forgotten.</string>
+    <string name="grade2_short_help">Very tricky.</string>
+    <string name="grade3_short_help">A bit tricky.</string>
+    <string name="grade4_short_help">Remembered.</string>
+    <string name="grade5_short_help">Too easy.</string>
+
+    <string name="grade01_help">You have forgotten this card completely.</string>
+    <string name="grade2_help">Barely correct answer. The interval was way too long.</string>
+    <string name="grade3_help">Correct answer, but with much effort. The interval was probably too long.</string>
+    <string name="grade4_help">Correct answer, with some effort. The interval was probably just right.</string>
+    <string name="grade5_help">Correct answer, but without any difficulties. The interval was probably too short.</string>
+
+    <string name="grade0_new_help">You don\'t remember this card yet.</string>
+    <string name="grade1_new_help">Like \'0\', but it\'s getting more familiar. Show it less often.</string>
+    <string name="grade2345_new_help">You\'ve memorised this card now and will probably remember it for a few days.</string>
+
+    <!-- translators: please do not translate below this line! -->
+
+    <string name="app_name">Video Vocabulary</string>
+
+    <string-array name="values_cards_to_load">
+        <item>25</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <string-array name="values_font_size">
+        <item>x-small</item>
+        <item>smaller</item>
+        <item>medium</item>
+        <item>larger</item>
+        <item>x-large</item>
+    </string-array>
+
+    <string-array name="values_button_pos">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

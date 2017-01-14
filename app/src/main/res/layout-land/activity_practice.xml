@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ViewFlipper
+        android:id="@+id/vfHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/holo_blue_dark"
+                    android:textStyle="bold"
+                    android:text="@string/blue_text"
+                    android:id="@+id/blueText"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/myviewpager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </android.support.v4.view.ViewPager>
+            </RelativeLayout>
+
+            <ListView
+                android:id="@+id/lvWords"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="?android:dividerHorizontal"
+            android:horizontalSpacing="10dp"
+            android:orientation="horizontal"
+            android:showDividers="middle"
+            android:verticalSpacing="10dp" >
+
+            <FrameLayout
+                android:id="@+id/detail_container"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#eee"
+                android:divider="?android:dividerHorizontal"
+                android:orientation="vertical"
+                android:showDividers="middle" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/upload_button"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@drawable/share"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-condensed"
+                        android:hint="@string/button_share"
+                        android:maxLines="2"
+                        android:onClick="uploadVideo"
+                        android:padding="8dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColorHint="#c00"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/btnRecordAgain"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawableTop="@drawable/ic_device_access_video"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:hint="@string/button_again"
+                        android:maxLines="2"
+                        android:onClick="recordAgain"
+                        android:padding="8dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColorHint="#c00"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

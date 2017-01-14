@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_pleco"
+        android:title="@string/menu_pleco" />
+
+    <item
+        android:id="@+id/menu_goldendict"
+        android:title="@string/menu_goldendict" />
+
+</menu>
+<!-- From: file:/Users/Apple/AndroidStudioProjects/Video%20Vocabulary/app/src/main/res/menu/activity_video_list.xml -->

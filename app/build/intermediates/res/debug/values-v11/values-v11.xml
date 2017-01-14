@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Apple/AndroidStudioProjects/Video%20Vocabulary/app/src/main/res/values-v11/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/Apple/AndroidStudioProjects/Video%20Vocabulary/app/build/intermediates/exploded-aar/Video%20Vocabulary/youkuPlayerOpenSDK/unspecified/res/values-v11/values-v11.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    <!-- From: file:/Users/Apple/AndroidStudioProjects/Video%20Vocabulary/app/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="BlackNoBarsTheme" parent="android:Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:colorBackground">@android:color/black</item>
+    </style>
+    <style name="BlackNoTitleBarTheme" parent="android:Theme.Holo"/>
+    <style name="OverlayActionBarTheme" parent="android:Theme.Holo">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+</resources>

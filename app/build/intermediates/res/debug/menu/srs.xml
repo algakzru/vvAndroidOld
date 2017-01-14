@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_one"
+        android:title="@string/btnResponse1" />
+
+    <item
+        android:id="@+id/menu_two"
+        android:title="@string/btnResponse2" />
+
+    <item
+        android:id="@+id/menu_three"
+        android:title="@string/btnResponse3" />
+
+    <item
+        android:id="@+id/menu_four"
+        android:title="@string/btnResponse4" />
+
+    <item
+        android:id="@+id/menu_five"
+        android:title="@string/btnResponse5" />
+
+</menu>
+<!-- From: file:/Users/Apple/AndroidStudioProjects/Video%20Vocabulary/app/src/main/res/menu/srs.xml -->

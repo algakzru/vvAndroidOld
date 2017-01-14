@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/llHandleNoCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NoMoreCards"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/holo_blue_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/NoMoreCards2"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/holo_blue_dark"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/llStudyCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ViewFlipper
+            android:id="@+id/vfHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="?android:dividerHorizontal"
+                android:showDividers="middle"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:textAppearance="@android:style/TextAppearance.Large"
+                        android:textColor="#c00"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/tvFrontCard" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cards_left"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/category"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#eee"
+                    android:orientation="vertical" >
+
+                    <Button
+                        android:id="@+id/btnShowAnswer"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawableTop="@drawable/tv"
+                        android:ellipsize="end"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center"
+                        android:hint="@string/button_show_answer"
+                        android:maxLines="2"
+                        android:padding="8dp"
+                        android:textAppearance="?android:textAppearanceLarge"
+                        android:textColorHint="#c00"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="?android:dividerHorizontal"
+                android:showDividers="middle"
+                android:orientation="vertical">
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:id="@+id/youtube_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/lvRating"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#eee"
+                    android:baselineAligned="false"
+                    android:divider="?android:dividerVertical"
+                    android:orientation="horizontal"
+                    android:showDividers="middle"
+                    android:visibility="visible">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <RatingBar
+                            android:id="@+id/rbRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:numStars="6"
+                            android:stepSize="1.0" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1">
+
+                        <Button
+                            android:id="@+id/btnRating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:enabled="false"
+                            android:text="@string/btn_next_word" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ViewFlipper>
+    </RelativeLayout>
+
+</LinearLayout>
